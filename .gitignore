@@ -7,7 +7,9 @@
 *.userosscache
 *.sln.docstates
 
-# Build results
+# Build results - ignore all projects' bin/obj folders
+**/bin/
+**/obj/
 [Dd]ebug/
 [Rr]elease/
 x64/
@@ -15,8 +17,6 @@ x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
-[Bb]in/
-[Oo]bj/
 [Ll]og/
 [Ll]ogs/
 [Tt]est[Rr]esult*/
@@ -41,7 +41,7 @@ packages/
 *.ldf
 Migrations/
 
-# Configuration
+# Configuration - ignore sensitive local configs
 appsettings.Development.json
 appsettings.Local.json
 appsettings.*.json
@@ -50,13 +50,13 @@ appsettings.*.json
 # =========================
 # Angular / Node
 # =========================
-MadrashaOS.UI/node_modules/
-MadrashaOS.UI/dist/
-MadrashaOS.UI/tmp/
-MadrashaOS.UI/.angular/
-MadrashaOS.UI/out-tsc/
-MadrashaOS.UI/.env
-MadrashaOS.UI/.vscode/
+**/node_modules/
+**/dist/
+**/tmp/
+**/.angular/
+**/out-tsc/
+**/.env
+**/.vscode/
 
 # Angular build cache
 .angular/
