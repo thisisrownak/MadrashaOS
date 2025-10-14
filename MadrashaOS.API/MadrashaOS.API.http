@@ -1,0 +1,6 @@
+@MO.API_HostAddress = http://localhost:5044
+
+GET {{MO.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,15 @@
+D:\Projects\Personal Projects\MadrashaOS\MO.Application\bin\Debug\net8.0\MO.Application.deps.json
+D:\Projects\Personal Projects\MadrashaOS\MO.Application\bin\Debug\net8.0\MO.Application.dll
+D:\Projects\Personal Projects\MadrashaOS\MO.Application\bin\Debug\net8.0\MO.Application.pdb
+D:\Projects\Personal Projects\MadrashaOS\MO.Application\bin\Debug\net8.0\MO.Domain.dll
+D:\Projects\Personal Projects\MadrashaOS\MO.Application\bin\Debug\net8.0\MO.Domain.pdb
+D:\Projects\Personal Projects\MadrashaOS\MO.Application\obj\Debug\net8.0\MO.Application.csproj.AssemblyReference.cache
+D:\Projects\Personal Projects\MadrashaOS\MO.Application\obj\Debug\net8.0\MO.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Personal Projects\MadrashaOS\MO.Application\obj\Debug\net8.0\MO.Application.AssemblyInfoInputs.cache
+D:\Projects\Personal Projects\MadrashaOS\MO.Application\obj\Debug\net8.0\MO.Application.AssemblyInfo.cs
+D:\Projects\Personal Projects\MadrashaOS\MO.Application\obj\Debug\net8.0\MO.Application.csproj.CoreCompileInputs.cache
+D:\Projects\Personal Projects\MadrashaOS\MO.Application\obj\Debug\net8.0\MO.Appli.35BA578E.Up2Date
+D:\Projects\Personal Projects\MadrashaOS\MO.Application\obj\Debug\net8.0\MO.Application.dll
+D:\Projects\Personal Projects\MadrashaOS\MO.Application\obj\Debug\net8.0\refint\MO.Application.dll
+D:\Projects\Personal Projects\MadrashaOS\MO.Application\obj\Debug\net8.0\MO.Application.pdb
+D:\Projects\Personal Projects\MadrashaOS\MO.Application\obj\Debug\net8.0\ref\MO.Application.dll

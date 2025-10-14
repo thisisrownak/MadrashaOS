@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Personal Projects\\MadrashaOS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F554861C-F529-4671-979C-04885A411053}|MadrashaOS.Persistence\\MadrashaOS.Infrastructure.csproj|d:\\projects\\personal projects\\madrashaos\\madrashaos.persistence\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F554861C-F529-4671-979C-04885A411053}|MadrashaOS.Persistence\\MadrashaOS.Infrastructure.csproj|solutionrelative:madrashaos.persistence\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F554861C-F529-4671-979C-04885A411053}|MadrashaOS.Persistence\\MadrashaOS.Infrastructure.csproj|d:\\projects\\personal projects\\madrashaos\\madrashaos.persistence\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F554861C-F529-4671-979C-04885A411053}|MadrashaOS.Persistence\\MadrashaOS.Infrastructure.csproj|solutionrelative:madrashaos.persistence\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F554861C-F529-4671-979C-04885A411053}|MadrashaOS.Persistence\\MadrashaOS.Infrastructure.csproj|d:\\projects\\personal projects\\madrashaos\\madrashaos.persistence\\persistence\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F554861C-F529-4671-979C-04885A411053}|MadrashaOS.Persistence\\MadrashaOS.Infrastructure.csproj|solutionrelative:madrashaos.persistence\\persistence\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF9AB4D-7C77-4DE3-9FB5-792ABF0280E2}|MadrashaOS.API\\MadrashaOS.API.csproj|d:\\projects\\personal projects\\madrashaos\\madrashaos.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF9AB4D-7C77-4DE3-9FB5-792ABF0280E2}|MadrashaOS.API\\MadrashaOS.API.csproj|solutionrelative:madrashaos.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF9AB4D-7C77-4DE3-9FB5-792ABF0280E2}|MadrashaOS.API\\MadrashaOS.API.csproj|d:\\projects\\personal projects\\madrashaos\\madrashaos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF9AB4D-7C77-4DE3-9FB5-792ABF0280E2}|MadrashaOS.API\\MadrashaOS.API.csproj|solutionrelative:madrashaos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\Personal Projects\\MadrashaOS\\MadrashaOS.Persistence\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MadrashaOS.Persistence\\Persistence\\AppDbContext.cs",
+              "ToolTip": "D:\\Projects\\Personal Projects\\MadrashaOS\\MadrashaOS.Persistence\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "MadrashaOS.Persistence\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T17:41:55.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Projects\\Personal Projects\\MadrashaOS\\MadrashaOS.Persistence\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "MadrashaOS.Persistence\\DependencyInjection.cs",
+              "ToolTip": "D:\\Projects\\Personal Projects\\MadrashaOS\\MadrashaOS.Persistence\\DependencyInjection.cs",
+              "RelativeToolTip": "MadrashaOS.Persistence\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T17:41:51.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Personal Projects\\MadrashaOS\\MadrashaOS.Persistence\\Persistence\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "MadrashaOS.Persistence\\Persistence\\Repository\\ProductRepository.cs",
+              "ToolTip": "D:\\Projects\\Personal Projects\\MadrashaOS\\MadrashaOS.Persistence\\Persistence\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "MadrashaOS.Persistence\\Persistence\\Repository\\ProductRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAvwAYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T17:41:26.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Personal Projects\\MadrashaOS\\MadrashaOS.API\\Program.cs",
+              "RelativeDocumentMoniker": "MadrashaOS.API\\Program.cs",
+              "ToolTip": "D:\\Projects\\Personal Projects\\MadrashaOS\\MadrashaOS.API\\Program.cs",
+              "RelativeToolTip": "MadrashaOS.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T17:39:37.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Projects\\Personal Projects\\MadrashaOS\\MadrashaOS.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "MadrashaOS.API\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Projects\\Personal Projects\\MadrashaOS\\MadrashaOS.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "MadrashaOS.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T17:38:27.017Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
