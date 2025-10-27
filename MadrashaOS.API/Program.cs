@@ -1,17 +1,61 @@
 using MadrashaOS.Infrastructure;
+using MadrashaOS.WebAPI.Middlewares;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddInfrastructure(builder.Configuration);
+// =========================
+// Add Services
+// =========================
+builder.Services.AddInfrastructure(builder.Configuration); // Registers DB, Identity, Repositories
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+// Swagger / OpenAPI
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// =========================
+// JWT Authentication
+// =========================
+var jwtSettings = builder.Configuration.GetSection("JwtSettings");
+var secretKey = jwtSettings["SecretKey"];
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.RequireHttpsMetadata = false;
+    options.SaveToken = true;
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = jwtSettings["Issuer"],
+        ValidAudience = jwtSettings["Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey))
+    };
+});
+
+
+// =========================
+// Build App
+// =========================
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+
+// =========================
+// Middleware
+// =========================
+app.UseMiddleware<ErrorHandlingMiddleware>(); // Custom global exception handling
+
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -20,8 +64,18 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+// =========================
+// Authentication & Authorization
+// =========================
+app.UseAuthentication(); // Must be before Authorization
 app.UseAuthorization();
 
+// =========================
+// Map Controllers
+// =========================
 app.MapControllers();
 
+// =========================
+// Run App
+// =========================
 app.Run();

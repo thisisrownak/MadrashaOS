@@ -7,11 +7,18 @@ namespace MadrashaOS.API.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        private readonly ProductService _productService;
+        //private readonly ProductService _productService;
 
-        public ProductController(ProductService productService)
+        //public ProductController(ProductService productService)
+        //{
+        //    _productService = productService;
+        //}
+
+        [HttpGet("error")]
+        public IActionResult ThrowError()
         {
-            _productService = productService;
+            // Forcefully throw an exception to test middleware
+            throw new Exception("This is a test exception!");
         }
     }
 }
